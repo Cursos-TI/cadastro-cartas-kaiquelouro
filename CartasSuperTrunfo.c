@@ -39,7 +39,7 @@ int main(){
 
     densidadePopulacao1 = (float) populacao1 / areaKm1; //calcula a densidade da população
 
-    pibPerCapita1 = (float) (pib1 * 1000000000.0) / populacao1; // calcula o PIB Per Capita
+    pibPerCapita1 = (pib1 * 1000000000.0) / populacao1; // calcula o PIB Per Capita
     // (pib1 * 1000000000.0) transforma o valor do pib em bilhão.
 
     //CARTA NUMERO 2
@@ -71,7 +71,7 @@ int main(){
 
     densidadePopulacao2 = (float) populacao2 / areaKm2;
 
-    pibPerCapita2 = (float) (pib2 * 1000000000.0) / populacao2;
+    pibPerCapita2 = (pib2 * 1000000000.0) / populacao2;
 
     //IMPRIMINDO O RESULTADO
 
